@@ -134,6 +134,8 @@ class OnboardingController: UIViewController {
 
                 self.pageContainer.layer.add(animation, forKey: "pageAnimation")
                 self.pageContainer.bringSubview(toFront: toView)
+
+                fromView.isHidden = true
                 
             } else {
                 fromView.isHidden = true
